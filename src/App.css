@@ -1,0 +1,75 @@
+@media only screen and (min-width: 571px) {
+  body {
+    background-image: url("./assets/desktopBackground.jpg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .appStyle,
+  .mainPageStyle {
+    margin-top: 40px;
+    backdrop-filter: blur(2px);
+  }
+
+  .mainPageStyle {
+  height: 375px;
+  }
+
+  .custom-container {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+  
+  }
+
+  .vertical-center {
+    display: flex;
+    align-items: center;
+    height: 327px;
+    
+  }
+
+  .nameTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 50vw;
+    color: white;
+  }
+
+
+
+  .profileImg {
+    position: relative;
+ 
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border-color: white;
+    border-style:ridge;
+
+    
+  }
+
+
+
+  .scaleDown {
+    position: relative;
+    scale: 0.5;
+    display: flex;
+    align-items: center;
+    width: 50wh;
+ 
+    
+  }
+
+  .attribution{
+    position: relative;
+    left: 35%;
+    
+  }
+  
+
+}
