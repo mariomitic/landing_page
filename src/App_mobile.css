@@ -62,17 +62,19 @@
 
   .scaleDown {
     scale: 0.4;
-    position: relative;
-    top: 55vh;
+    position: absolute;
+    top: 95vh;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    left: -7vh;
+    left: -25%;
+    
   }
 
   .attribution{
-    position: relative;
+    position: absolute;
+    top: 105vh;
     
-    top: 51vh;
     left: 35%;
   }
 }

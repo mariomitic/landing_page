@@ -29,7 +29,7 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(true); setmyProjects(false); setmyResume(false); setcontactMe(false)}}>About me</Nav.Link>
-              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(true); setmyResume(false); setcontactMe(false)}}>My projecs</Nav.Link>
+              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(true); setmyResume(false); setcontactMe(false)}}>My projects</Nav.Link>
               <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(false); setmyResume(true); setcontactMe(false)}}>My resume</Nav.Link>
               <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(false); setmyResume(false); setcontactMe(true)}}>Contact</Nav.Link>
 
