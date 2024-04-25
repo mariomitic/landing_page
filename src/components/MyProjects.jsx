@@ -12,7 +12,8 @@ const yambGameGitLink = "https://github.com/mariomitic/React-Yamb-App.git"
 const yambReduxGitLink = "https://github.com/mariomitic/React-Redux-Yamb.git"
 const plannerLink = "https://personalplanner.netlify.app/"
 const plannerGitLink = "https://github.com/mariomitic/Personal_planner_Vitest.git"
-const hikersLink = "https://planinarske-akcije.com/quiz/quiz_page"
+//const hikersLink = "https://planinarske-akcije.com/quiz/quiz_page"
+const hikersLink = "https://planinarske-akcije.com/quiz/quiz_page?quiz_id=1&lang=ENGLISH"
 
   return (
     <div className="nameTitle">
