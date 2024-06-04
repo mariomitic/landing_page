@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 
 import MainPage from './components/MainPage';
-import IconsCredits from './components/IconsCredits';
+//import IconsCredits from './components/IconsCredits';
 
 
 
@@ -43,7 +43,7 @@ function App() {
 
       <MainPage mainText={mainText} aboutMeText={aboutMeText} myProjects={myProjects} myResume={myResume} contactMe={contactMe}/>
      
-<IconsCredits />
+{/* <IconsCredits /> */}
     </div>
   );
 }

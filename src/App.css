@@ -6,21 +6,21 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .appStyle,
+  
   .mainPageStyle {
     margin-top: 40px;
     backdrop-filter: blur(2px);
+    height: 55vh;
   }
 
-  .mainPageStyle {
-  height: 375px;
-  }
+ 
 
   .custom-container {
+    margin: 40px auto;
     border: 2px solid #ddd;
     padding: 20px;
     border-radius: 8px;
-  
+    backdrop-filter: blur(2px);
   }
 
   .vertical-center {
@@ -42,7 +42,7 @@
 
 
   .profileImg {
-    position: relative;
+ 
  
     width: 200px;
     height: 200px;
@@ -59,17 +59,20 @@
     position: relative;
     scale: 0.5;
     display: flex;
-    align-items: center;
-    width: 50wh;
+    justify-content: center;
+    
+    /* width: 50vw; */
+   
  
     
   }
 
   .attribution{
     position: relative;
-    left: 35%;
-    
+    display: flex;
+    justify-content: center;
   }
   
 
 }
+

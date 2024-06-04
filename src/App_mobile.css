@@ -5,35 +5,35 @@
 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 120vh;
+    /* height: 100vh; */
   }
 
 
   .mainPageStyle {
     margin-top: 20px;
-    height: 10vh;
+  
   }
-
+/* 
   .appStyle {
    
     backdrop-filter: blur(2px);
-  }
+  } */
 
   .custom-container {
+    backdrop-filter: blur(2px);
     margin: 2%;
-    /* margin-top: 20px; */
     border: 2px solid #ddd;
     padding: 2%;
     border-radius: 8px;
-    height: 110vh;
-    width: 100vw;
+    height: 98vh;
+    width: 95vw;
   }
 
   .vertical-center {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 470px;
+    height: 60vh;
   }
 
   .nameTitle {
@@ -48,11 +48,11 @@
   .profileImg {
     position: relative;
     left: 2%;
-    width: 150px;
-    height: 150px;
-    border-radius: 25%;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
     
-    border-color: white;
+    border-color: rgb(203, 208, 233);
     border-style:ridge;
   }
 
@@ -61,20 +61,33 @@
   }
 
   .scaleDown {
-    scale: 0.4;
-    position: absolute;
-    top: 95vh;
+    width: 10%;
+    position: relative;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    left: -25%;
-    
+    left: 45%;
+    justify-content: center;
+    top: 0vh;
+
+
   }
 
   .attribution{
-    position: absolute;
-    top: 105vh;
-    
-    left: 35%;
+    position: relative;
+    top: 0vh;
   }
+
+
+}
+
+@media (max-height: 870px) {
+  .attribution, .scaleDown{
+    display: none;
+  }
+}
+  @media (max-height: 700px) {
+   .profileImg{
+      display: none;
+    }
+
 }

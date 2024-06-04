@@ -5,6 +5,8 @@ import MyProjects from "./MyProjects";
 import MyResume from "./MyResume";
 import ContactMe from "./ContactMe";
 
+import IconsCredits from "./IconsCredits";
+
 
 function MainPage(props) {
   const mainPageText = (
@@ -29,7 +31,7 @@ function MainPage(props) {
       </div>
 
       <br></br>
-
+<IconsCredits />
     </div>
   );
 }
