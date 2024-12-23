@@ -2,6 +2,7 @@ import React from "react";
 import YambProject from "../assets/Yamb_image.jpg";
 import PlannerImg from "../assets/ForkKnife.jpg";
 import HikersQuiz from "../assets/HikersQuiz.jpg";
+import WeightImg from "../assets/WeightImg.jpg";
 
 
 
@@ -14,11 +15,20 @@ const plannerLink = "https://personalplanner.netlify.app/"
 const plannerGitLink = "https://github.com/mariomitic/Personal_planner_Vitest.git"
 //const hikersLink = "https://planinarske-akcije.com/quiz/quiz_page"
 const hikersLink = "https://planinarske-akcije.com/quiz/quiz_page?quiz_id=1&lang=ENGLISH"
+const exerciseTimerLink = "https://workoutexercisetimer.netlify.app/"
+const exerciseTimerGitLink = "https://github.com/mariomitic/Exercise-Timer.git"
 
   return (
     <div className="nameTitle">
       <h2>My Projects</h2>
-      <div >
+      <div>
+      <div>
+      <a href={exerciseTimerLink}  target="_blank" rel="noopener noreferrer" style={{ color: 'white', marginLeft: '20px'}}>Workout Timer
+        <img src={WeightImg} alt="Planner Picture" style={{ width: '50px', height: '50px', borderRadius: '20%', margin: '10px' }} /> </a>
+        <a  href={exerciseTimerGitLink}  target="_blank" rel="noopener noreferrer" style={{ color: 'white'}}>Github link</a>
+    </div>
+
+      <hr style={{margin: '0px'}}></hr>
       <div>
       <a href={plannerLink}  target="_blank" rel="noopener noreferrer" style={{ color: 'white'}}>Food Planner App
         <img src={PlannerImg} alt="Planner Picture" style={{ width: '50px', height: '50px', borderRadius: '20%', margin: '10px' }} /> </a>
@@ -38,6 +48,7 @@ const hikersLink = "https://planinarske-akcije.com/quiz/quiz_page?quiz_id=1&lang
     </div>
     <a  href={yambReduxGitLink}  target="_blank" rel="noopener noreferrer" style={{ color: 'white'}}>React Redux version Github link</a>
     
+
 
   
     </div> 

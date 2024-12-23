@@ -5,6 +5,8 @@
 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100dvh;
+    overflow: hidden;
   }
   
   .mainPageStyle {

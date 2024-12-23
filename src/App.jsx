@@ -17,6 +17,7 @@ function App() {
   const [myProjects, setmyProjects] = useState(false);
   const [myResume, setmyResume] = useState(false);
   const [contactMe, setcontactMe] = useState(false);
+  const [profPicOn, setProfPicON] = useState(true)
 
 
 
@@ -28,10 +29,10 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(true); setmyProjects(false); setmyResume(false); setcontactMe(false)}}>About me</Nav.Link>
-              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(true); setmyResume(false); setcontactMe(false)}}>My projects</Nav.Link>
-              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(false); setmyResume(true); setcontactMe(false)}}>My resume</Nav.Link>
-              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(false); setmyResume(false); setcontactMe(true)}}>Contact</Nav.Link>
+              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(true); setmyProjects(false); setProfPicON(true); setmyResume(false); setcontactMe(false)}}>About me</Nav.Link>
+              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(true); setProfPicON(false); setmyResume(false); setcontactMe(false)}}>My projects</Nav.Link>
+              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(false); setProfPicON(true); setmyResume(true); setcontactMe(false)}}>My resume</Nav.Link>
+              <Nav.Link href="#features" onClick={() => {setmainText(false); setaboutMeText(false); setmyProjects(false); setProfPicON(true); setmyResume(false); setcontactMe(true)}}>Contact</Nav.Link>
 
 
             </Nav>
@@ -41,7 +42,7 @@ function App() {
 
 
 
-      <MainPage mainText={mainText} aboutMeText={aboutMeText} myProjects={myProjects} myResume={myResume} contactMe={contactMe}/>
+      <MainPage mainText={mainText} aboutMeText={aboutMeText} myProjects={myProjects} myResume={myResume} contactMe={contactMe} profPicOn={profPicOn}/>
      
 {/* <IconsCredits /> */}
     </div>

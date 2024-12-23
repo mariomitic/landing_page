@@ -20,9 +20,9 @@ function MainPage(props) {
   return (
     <div className="text-center mainPageStyle">
        <div className="d-flex justify-content-center vertical-center">
-        <div className="picture-frame">
+       {props.profPicOn ? (<div className="picture-frame">
           <img src={profilePicture} className="profileImg"></img>
-        </div>
+        </div>) : null}
         {props.mainText ? mainPageText : null}
         {props.aboutMeText ? <AboutMe /> : null}
         {props.myProjects ? <MyProjects /> : null}
